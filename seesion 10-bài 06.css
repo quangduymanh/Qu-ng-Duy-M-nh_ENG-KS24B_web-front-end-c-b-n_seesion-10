@@ -1,0 +1,90 @@
+.news-card {
+    max-width: 800px;
+    background: rgb(239, 238, 238);
+    border-radius: 10px;
+    margin: 20px auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+.news-image {
+    position: relative;
+}
+
+.news-image img {
+    width: 100%;
+    display: block;
+}
+.category-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-btn:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+.news-content {
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    margin-top: -100px;
+}
+
+.meta {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: rgb(239, 238, 238);
+}
+
+.pagination button {
+    border: none;
+    background: rgb(239, 238, 238);
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pagination button:hover {
+    background: rgb(168, 167, 167);
+}
+.pagination .active {
+    background: black;
+    color: white;
+}
+
+.prev, .next {
+    font-size: 16px;
+    background: black;
+    color: white;
+}
+
+.prev:hover, .next:hover {
+    background: rgb(74, 74, 74);
+}
